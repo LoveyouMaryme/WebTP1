@@ -1,0 +1,23 @@
+
+body {
+    background-image: url("ressources/images/image.png");
+    background-size: cover;
+
+  }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+.homepage-title{
+    font-family: "Klee One", cursive;
+}
+  
+h1 {
+    color: navy;
+    margin-left: 20px;
+
+  }
+
