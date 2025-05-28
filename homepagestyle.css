@@ -1,23 +1,44 @@
+body {}
 
+html,
 body {
-    background-image: url("ressources/images/image.png");
-    background-size: cover;
-
-  }
-
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-.homepage-title{
-    font-family: "Klee One", cursive;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-  
-h1 {
-    color: navy;
-    margin-left: 20px;
 
-  }
+.homepage-title {
+  font-family: "Klee One", cursive;
 
+}
+
+.japanese_letters_grid {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  height: 100%;
+}
+
+div {
+  border-color: black;
+  border-style: solid;
+
+}
+
+.title {
+  display: grid;
+  grid-template-row: 1fr 1fr 1fr 1fr;
+}
+
+.title_travel {
+  color: navy;
+
+}
+
+.Welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1 {}
