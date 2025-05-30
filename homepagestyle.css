@@ -5,6 +5,14 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-image: url("ressources/images/image 5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Klee One", cursive;
+
+
+
 }
 
 .homepage-title {
@@ -12,15 +20,15 @@ body {
 
 }
 
-.japanese_letters_grid {
+.homepage_grid {
   display: grid;
   grid-template-columns: 100px 1fr;
   height: 100%;
 }
 
 div {
-  border-color: black;
-  border-style: solid;
+  /*border-color: black;
+  border-style: solid;*/
 
 }
 
@@ -29,16 +37,30 @@ div {
   grid-template-row: 1fr 1fr 1fr 1fr;
 }
 
-.title_travel {
-  color: navy;
+.title_travel {}
+
+.left {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 
 }
 
-.Welcome {
+.japanese {
   display: flex;
+  align-self: flex-end;
+  word-wrap: break-word;
+  color: rgb(220, 223, 219)
+}
+
+.welcome {
+  display: flex;
+  font-size: 100px;
   justify-content: center;
   align-items: center;
+  font-weight: lighter;
 
+  color: rgb(220, 223, 219);
+  line-height: 100px;
 }
 
 h1 {}
